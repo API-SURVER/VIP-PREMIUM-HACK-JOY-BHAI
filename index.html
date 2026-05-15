@@ -1,0 +1,354 @@
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>𝐉𝐒™𝐎𝐖𝐍𝐄𝐑💓𝐉𝐎𝐘//𝐕𝐀𝐈</title>
+<meta name="description" content="Get the best Color Trading hack and prediction signals. Premium tool for high accuracy trading results.">
+<meta name="keywords" content="Color Trading hack, Color Prediction Tool, Trading Signals, 2026 Hack">
+
+<style>
+  /* --- 1. GLOBAL & LUXURY BACKGROUND --- */
+  html, body { 
+    margin: 0; padding: 0; 
+    height: 100%; width: 100%; 
+    overflow: hidden; 
+    background: radial-gradient(circle at center, #0a0a1a 0%, #020205 100%);
+    font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-animation {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: 
+      linear-gradient(transparent 95%, rgba(0, 255, 200, 0.05) 50%),
+      linear-gradient(90deg, transparent 95%, rgba(100, 0, 255, 0.05) 50%);
+    background-size: 40px 40px;
+    z-index: 0;
+    animation: moveGrid 20s linear infinite;
+  }
+  @keyframes moveGrid {
+    0% { background-position: 0 0; }
+    100% { background-position: 40px 40px; }
+  }
+
+  /* --- 2. PREMIUM GAME FRAME --- */
+  .iframe-box {
+    width: 95%; 
+    max-width: 420px;
+    height: 92%;      
+    position: relative;
+    z-index: 5;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  iframe { width: 100%; height: 100%; border: none; }
+
+  /* --- 3. FLOATING GLASS TOOL --- */
+  .box-container {
+    position: fixed; 
+    top: 50px; left: 20px; 
+    width: 180px;
+    z-index: 9999;
+    cursor: grab;
+    touch-action: none;
+  }
+
+  /* RGB Border Animation */
+  .box-container::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(45deg, #00ffff, #ff00ff, #00ff00, #00ffff);
+    background-size: 300%;
+    border-radius: 22px;
+    z-index: -1;
+    animation: borderRotate 4s linear infinite;
+  }
+  @keyframes borderRotate {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .box {
+    background: rgba(15, 15, 25, 0.85);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+
+  .profile-pic {
+    width: 55px; height: 55px;
+    border-radius: 50%;
+    border: 2px solid #00ffff;
+    padding: 2px;
+    margin-bottom: 8px;
+  }
+
+  .title {
+    font-size: 13px; font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #fff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 12px;
+  }
+
+  /* --- INPUTS & BUTTONS --- */
+  #loginPart input {
+    width: 85%; padding: 8px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(0, 255, 255, 0.4);
+    border-radius: 10px; color: #fff;
+    font-size: 12px; margin-bottom: 10px;
+    outline: none; transition: 0.3s;
+  }
+  #loginPart input:focus { border-color: #ff00ff; box-shadow: 0 0 10px rgba(255,0,255,0.3); }
+
+  .btn-group {
+    display: flex; gap: 5px; justify-content: center; margin-top: 5px;
+  }
+
+  button, .btn-action {
+    width: 90%; padding: 8px 0;
+    border-radius: 10px; border: none;
+    font-size: 11px; font-weight: 700;
+    cursor: pointer; text-decoration: none;
+    transition: 0.2s;
+  }
+
+  .btn-login { background: #00ffff; color: #000; margin-bottom: 8px; width: 90%; }
+  .btn-telegram { background: #24A1DE; color: #fff; flex: 1; }
+  .btn-dev { background: #6200ea; color: #fff; flex: 1; }
+  
+  button:active, .btn-action:active { transform: scale(0.95); }
+
+  /* --- SIGNAL AREA --- */
+  .signal-box {
+    background: rgba(0, 255, 255, 0.05);
+    border-radius: 15px; padding: 10px;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Loading Animation */
+  .loading-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  
+  .loading-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .spinner {
+    width: 30px;
+    height: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #ff0000;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .signal { 
+    font-size: 22px; 
+    font-weight: 900; 
+    letter-spacing: 1px; 
+    margin: 5px 0;
+    transition: all 0.5s ease;
+  }
+  .countdown { font-size: 16px; color: #ffeb3b; font-weight: bold; }
+
+  #wrong { color: #ff4444; font-size: 10px; display:none; margin-top:5px; }
+  .dev-id { font-size: 9px; color: #aaa; margin-top: 10px; opacity: 0.6; }
+
+</style>
+</head>
+<body>
+
+<div class="bg-animation"></div>
+
+<div class="iframe-box">
+  <iframe src="https://tkclub2.com/#/register?invitationCode=34285217808"><https://tkclub2.com/#/home/AllLotteryGames/WinGo?id=1></iframe>
+</div>
+
+<div class="box-container" id="signalBox">
+  <div class="box">
+    
+<img src="https://iili.io/BpFuzmJ.md.jpg" class="profile-pic" alt="Falcon Tool">
+    <div class="title">𝐉𝐒™𝐎𝐖𝐍𝐄𝐑💓𝐉𝐎𝐘//𝐕𝐀𝐈</div>
+
+    <div id="loginPart">
+      <input type="text" id="passInput" placeholder="Enter Access Key">
+      <button class="btn-login" onclick="attemptLogin()">UNLOCK ACCESS</button>
+      
+      <div class="btn-group">
+        <a href="https://t.me/JSPREMIUM10" target="_blank" class="btn-action btn-telegram">TG CHANNEL</a>
+        <a href="https://t.me/JOYBD1012" class="btn-action btn-dev">DEVELOPER HASAN VAI</a>
+      </div>
+      
+      <div id="wrong">ACCESS DENIED!</div>
+      <div class="dev-id">DEVICE: <span id="myDevId">X-8066</span></div>
+    </div>
+
+    <div id="signalPart" style="display:none;">
+      <div id="currentTime" style="font-size:10px; color:rgba(255,255,255,0.5); margin-bottom:5px;">00:00:00</div>
+      
+      <div class="signal-box">
+        <div class="loading-overlay" id="loadingOverlay">
+          <div class="spinner"></div>
+        </div>
+        <div style="font-size:9px; color:#00ffff; text-transform: uppercase;">Next Prediction</div>
+        <div class="signal" id="predicted">ANALYZING</div>
+        <div class="countdown">WAIT: <span id="countdown">30</span>s</div>
+      </div>
+      
+      <div class="dev-id" style="color:#00ff00; opacity:1;">SYSTEM ONLINE</div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  // Device ID Management
+  let deviceId = localStorage.getItem("falcon_pro_id");
+  if (!deviceId) {
+    deviceId = "X-" + Math.floor(1000 + Math.random() * 9000); 
+    localStorage.setItem("falcon_pro_id", deviceId);
+  }
+  document.getElementById("myDevId").innerText = deviceId;
+
+  // Authentication
+  const secret = "443366"; 
+  function attemptLogin() {
+    let val = document.getElementById("passInput").value;
+    if(val === secret) {
+      document.getElementById("loginPart").style.display = "none";
+      document.getElementById("signalPart").style.display = "block";
+      startSignalEngine();
+    } else {
+      let err = document.getElementById("wrong");
+      err.style.display = "block";
+      setTimeout(() => err.style.display = "none", 2000);
+    }
+  }
+
+  // Draggable Feature
+  const tool = document.getElementById("signalBox");
+  let drag = false, xOff, yOff;
+
+  const activeUI = (e) => ['INPUT', 'BUTTON', 'A'].includes(e.target.tagName);
+
+  tool.addEventListener('mousedown', startDrag);
+  tool.addEventListener('touchstart', (e) => startDrag(e.touches[0]), {passive: false});
+
+  function startDrag(e) {
+    if(activeUI(e)) return;
+    drag = true;
+    xOff = e.clientX - tool.getBoundingClientRect().left;
+    yOff = e.clientY - tool.getBoundingClientRect().top;
+  }
+
+  document.addEventListener('mousemove', (e) => move(e));
+  document.addEventListener('touchmove', (e) => move(e.touches[0]), {passive: false});
+
+  function move(e) {
+    if(!drag) return;
+    let nx = e.clientX - xOff;
+    let ny = e.clientY - yOff;
+    tool.style.left = Math.max(0, Math.min(window.innerWidth - 180, nx)) + 'px';
+    tool.style.top = Math.max(0, Math.min(window.innerHeight - 250, ny)) + 'px';
+  }
+
+  document.addEventListener('mouseup', () => drag = false);
+  document.addEventListener('touchend', () => drag = false);
+
+  // Prediction Engine - Only BIG and SMALL predictions
+  let lastInt = -1;
+  let countdownTimer = 30;
+  
+  function startSignalEngine() { 
+    update(); 
+    runAI(); // Initial prediction
+  }
+
+  function update() {
+    let d = new Date();
+    let ms = d.getTime();
+    let currentId = Math.floor(ms / 30000);
+    
+    // Update countdown every second
+    countdownTimer = 30 - Math.floor((ms % 30000) / 1000);
+    document.getElementById("countdown").innerText = countdownTimer;
+    
+    // Update prediction every 30 seconds
+    if(currentId !== lastInt) {
+      lastInt = currentId;
+      runAI();
+    }
+    
+    document.getElementById("currentTime").innerText = d.toLocaleTimeString();
+    requestAnimationFrame(update);
+  }
+
+  function runAI() {
+    // Show loading animation
+    const loadingOverlay = document.getElementById("loadingOverlay");
+    loadingOverlay.classList.add('active');
+    
+    // Simulate processing time
+    setTimeout(() => {
+      // Generate only BIG or SMALL prediction
+      const predictions = [
+        { text: "BIG", color: "#00e676" },      // Big in green
+        { text: "SMALL", color: "#ff1744" }     // Small in red
+      ];
+      
+      let res = predictions[Math.floor(Math.random() * predictions.length)];
+      
+      let el = document.getElementById("predicted");
+      
+      // Hide loading animation
+      loadingOverlay.classList.remove('active');
+      
+      // Apply animation effect
+      el.style.transform = "scale(0.8)";
+      el.style.opacity = "0";
+      
+      setTimeout(() => {
+        el.innerText = res.text;
+        el.style.color = res.color;
+        el.style.transform = "scale(1)";
+        el.style.opacity = "1";
+      }, 400);
+    }, 1000); // 1 second loading animation
+  }
+</script>
+
+'))
+<style>.qc-cmp-showing { visibility: hidden !important; } body.didomi-popup-open { overflow: auto !important; } #didomi-host { visibility: hidden !important; }</style></body></html>
